@@ -1,9 +1,9 @@
-# Responsive-Web-Design---freeCodeCamp---
+# Responsive-Web-Design---freeCodeCamp---  <br/>
 
-As part of this certification, Adrian Dalle Grave built the following projects and got all automated test suites to pass:
-
-Build a Tribute Page: == THIS FILE ==
-Build a Survey Form:
-Build a Product Landing Page:
-Build a Technical Documentation Page:
-Build a Personal Portfolio Webpage:
+As part of this certification, Adrian Dalle Grave built the following projects and got all automated test suites to pass:<br/>
+<br/>
+Build a Tribute Page: == THIS FILE ==<br/>
+Build a Survey Form:<br/>
+Build a Product Landing Page:<br/>
+Build a Technical Documentation Page:<br/>
+Build a Personal Portfolio Webpage:<br/>
