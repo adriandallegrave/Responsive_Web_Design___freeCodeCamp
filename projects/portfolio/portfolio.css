@@ -1,0 +1,350 @@
+html {
+  /* color pallete */
+  --darkOrange: #FF6006;
+  --purple: #271E37;
+  --yellow: #FFED69;
+  --lightOrange: #FF9458;
+  --white: white;
+  
+  /* site colors */
+  --navBackground: rgba(0, 0, 0, 0.4);
+  --liHoverBackground: var(--purple);
+  --aColor: rgba(255, 255, 255, 1);
+  --aHoverColor: var(--yellow);
+  
+  --welcomeBackground: var(--purple);  
+  --intro1Color: var(--white);
+  --intro2Color: var(--darkOrange);
+  --middleColor: var(--lightOrange);
+  
+  --projectsBackground: var(--lightOrange);
+  --projectsColor: var(--purple);  
+  --projectsBorder: var(--purple);
+  --projectsA: var(--purple);  
+  --projectsAHover: var(--purple);
+  
+  --contactBackground: var(--purple);
+  --contactColor: var(--white);
+  --buttonBorder: var(--darkOrange);  
+  --contactA: var(--white);  
+  --contactAHover: var(--lightOrange);    
+ 
+  width: 100vw;
+  background-color: var(--welcomeBackground);
+}
+body {
+  margin: 0px 0px 0px 0px;
+}
+nav {
+  position: fixed;
+  top: 0px; left: 0px;
+  background: var(--navBackground);
+  width: 100vw; 
+  height: 80px; 
+  z-index: 1;
+  animation-name: navbar;  
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes navbar {
+  0% {
+    height: 0px;
+    border-radius: 0px 0px 0px 100%;
+  }
+  100% {
+    height: 80px;
+    border-radius: 0px 0px 0px 100%;
+  }
+}
+#navList {
+width: 30vw;  
+height: 60px;
+padding: 5px;
+margin: 1px;
+font-size: 32px;  
+font-family: "Brush Script MT", cursive;    
+text-decoration: none;
+list-style-type: none;
+position: fixed;
+  top: 6px; right: 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+li {
+  display: inline;
+}
+li:hover {
+background-color: var(--liHoverBackground);
+font-size: 50px;
+padding: 20px;
+}
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--welcomeBackground);
+  margin: 0;
+}
+#projects {
+  height: 100vh;
+  width: 100%;  
+  background-color: var(--projectsBackground);  
+}
+#contact {
+  height: 100vh;
+  width: 100%;  
+  background-color: var(--contactBackground);  
+}
+#projects {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px 0px 60px 0;
+}  
+.rowOfProjects {
+  width: 100vw; 
+  height: 30vh;
+  margin: 10vh 0vw 0vh 0vw; 
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-tile {
+  width: 30vw; 
+  margin: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+img {
+  width: 30vw;
+  height: auto;
+  border-radius: 100%;
+  border-color: var(--projectsBorder);
+border-width: 5px;
+border-style: solid;
+}
+
+img:hover {
+  animation-name: imges;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+@keyframes imges {
+  0% {  width: 30vw;}
+  100% {  width: 34vw;}
+}
+
+
+.text2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  padding: 90px 0 0 0;  
+  font-family: 'Courier New', monospace;  
+  font-size: 40px;
+}
+#intro1 {
+  width: 70vw; 
+  font-size: 60px;
+  text-align: center;
+  color: var(--intro1Color);
+}
+#intro2 {
+  width: 50vw;   
+  font-size:40px;
+  font-family: "Brush Script MT", cursive;  
+  text-align: center;
+  color: var(--intro2Color);
+}
+.middle {
+  color: var(--middleColor);
+  animation-name: middle;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes middle {
+  0% {opacity: 0;}
+  60% {opacity: 0;}  
+  100% {opacity: 1;}
+}
+.outside {
+  animation-name: outside;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes outside {
+  0% {opacity: 0;}
+  10% {opacity: 0;}
+  11% {opacity: 1;}  
+  12% {opacity: 0;}  
+  20% {opacity: 0;}
+  21% {opacity: 1;}
+  22% {opacity: 0;}
+  25% {opacity: 0;}    
+  26% {opacity: 1;}  
+  100% {opacity: 1;}
+}
+#welcome-section {
+  width: 100%;    
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact {
+  width: 100%;    
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#intro3 {
+  height: 100px;
+  width: 70vw; 
+  font-size: 60px;
+  text-align: center;
+  color: var(--contactColor);
+}
+#contactLinks {
+  height: 100px;
+  width: 100vw;
+  padding: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button {
+  padding: 40px;
+  border-color: var(--buttonBorder);
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  border-radius: 40px 40px 0 0;  
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;  
+  font-weight: bold;
+}
+#projectsText {
+  color: var(--projectsColor)
+}
+.fab fa-linkedin {}
+.fab fa-github-square {}
+.fas fa-at {}
+.navlinkk {
+    animation-name: navlinkes;  
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+} 
+a {
+  text-decoration: none;
+}
+@keyframes navlinkes {
+  0% {
+      opacity: 0;
+  }
+  80% {
+      opacity: 0;    
+  }
+  100% {
+  color: var(--aColor);    
+  }
+}
+a:hover {
+  color: var(--aHoverColor); 
+}
+.button:hover {
+  animation-name: btns;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+}
+@keyframes btns {
+  0% {font-size: 40px;}
+  100% {font-size: 60px; color: white;}
+}
+
+
+#projects a {
+  color: var(--projectsA) !important;
+}
+#projects a:hover {
+  color: var(--projectsAHover); 
+  width: 40vw;
+}
+
+#contact a {
+  color: var(--contactA);
+}
+#contact a:hover {
+  color: var(--contactAHover); 
+}
+
+@media (max-width: 650px) {
+html {
+  width: 650px;
+}
+#navList {
+width: 30vw;  
+font-size: 5vw;  
+}
+#welcome-section {
+  width: 650px;
+}
+#projects {
+  width: 650px;  
+}
+#contact {
+  width: 650px;  
+}
+#projects {
+  width: 650px;  
+}  
+.rowOfProjects {
+  width: 650px;  
+}
+.project-tile {
+  width: 200px;  
+}
+img {
+  width: 200px;  
+}
+#intro1 {
+  width: 600px; 
+  font-size: 60px;
+  text-align: center;
+}
+#intro2 {
+  width: 650vw;   
+}
+#welcome-section {
+  width: 650px;   
+}
+#contact {
+  width: 650px;  
+}
+#intro3 {
+  width: 650px;  
+}
+#contactLinks {
+  height: 100px;
+  width: 650px;  
+}
+}
+

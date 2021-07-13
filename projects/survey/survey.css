@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+body {
+  background-color: #013220;
+}
+.container {
+  margin: 40px auto 40px auto;
+  padding: 20x 20x 20x 20x;
+  font-family: Poppins;
+  max-width: 800px;
+}
+.header {
+  color: white;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+main {
+  background-color: #320113;
+  border-radius: 17px;
+}
+.description {
+  font-style: italic;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: white;
+  margin: 10px 20px 10px 20px;
+}
+form {
+  text-align: left;
+  padding: 20px 50px 20px 20px;
+}
+.inputLabel {
+  display: flex;
+  text-align: left;
+  margin: 20px 0 -5px 0;
+}
+.inputText {
+  display: flex;
+  border-radius: 7px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  height: 30px;
+}
+select {
+  display: flex;
+  border-radius: 7px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  height: 35px;
+  color: black;
+}
+
+.radioLabel {
+  border-radius: 7px;
+  padding-left: 10px;
+}
+.radioInput {
+  margin: 0 0 10px 0;
+}
+textarea {
+  width: 100%;
+}
+button {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0 -5px 0;
+  background-color: green;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: #000000;
+  color: green;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.disabled {
+  color: grey;
+}

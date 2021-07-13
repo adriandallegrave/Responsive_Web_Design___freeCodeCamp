@@ -1,0 +1,72 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description" class="description">Thank you for taking the time to help us improve the platform</p>
+    <hr>
+  </header>
+  <main>
+    <form id="survey-form">
+      <label class="inputLabel" for="name" id="name-label">Name:</label><br>
+      <input class="inputText" id="name" type="text" placeholder="Enter your name" autofocus required><br>
+
+      <label class="inputLabel" for="email" id="email-label">Email:</label><br>
+      <input class="inputText" id="email" type="email" placeholder="Enter your Email" required><br>
+
+      <label class="inputLabel" for="number" id="number-label">Age (optional):</label><br>
+      <input class="inputText" id="number" type="number" min="0" max="150" placeholder="Age"><br>
+
+      <label class="inputLabel" for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>
+      <select id="dropdown" required>
+        <option class="disabled" disabled selected value="">Select current role</option>
+        <option value="student">Student</option>
+        <option value="fullTimeJob">Full time job</option>
+        <option value="fullTimeLearner">Full time learner</option>
+        <option value="preferNotToSay">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select><br>
+
+      <div>
+        <label class="inputLabel" for="radio">Would you recommend freeCodeCamp to a friend?</label><br>
+        <input class="radioInput" type="radio" id="definetly" name="radio" value="definetly">
+        <label class="radioLabel" for="definetly">Definetly</label><br>
+        <input class="radioInput" type="radio" id="maybe" name="radio" value="maybe">
+        <label class="radioLabel" for="maybe">Maybe</label><br>
+        <input class="radioInput" type="radio" id="notSure" name="radio" value="notSure">
+        <label class="radioLabel" for="notSure">Not sure</label>
+      </div><br>
+
+      <div>
+        <label class="inputLabel" for="checkbox">What would you like to see improved? (Check all that apply)</label><br>
+        <input class="radioInput" type="checkbox" id="frontEndProjects" name="checkbox" value="frontEndProjects">
+        <label for="frontEndProjects"> Front End Projects</label><br>
+        <input class="radioInput" type="checkbox" id="backEndProjects" name="checkbox" value="backEndProjects">
+        <label for="backEndProjects"> Back End Projects</label><br>
+        <input class="radioInput" type="checkbox" id="dataVisualization" name="checkbox" value="dataVisualization">
+        <label for="dataVisualization"> Data Visualization</label><br>
+        <input class="radioInput" type="checkbox" id="challanges" name="checkbox" value="challanges">
+        <label for="challanges"> Challanges</label><br>
+        <input class="radioInput" type="checkbox" id="openSourceCommunity" name="checkbox" value="openSourceCommunity">
+        <label for="openSourceCommunity"> Open Source Community</label><br>
+        <input class="radioInput" type="checkbox" id="gitterHelpRooms" name="checkbox" value="gitterHelpRooms">
+        <label for="gitterHelpRooms"> Gitter help rooms</label><br>
+        <input class="radioInput" type="checkbox" id="videos" name="checkbox" value="videos">
+        <label for="videos"> Videos</label><br>
+        <input class="radioInput" type="checkbox" id="cityMeetups" name="checkbox" value="cityMeetups">
+        <label for="cityMeetups"> City Meetups</label><br>
+        <input class="radioInput" type="checkbox" id="wiki" name="checkbox" value="wiki">
+        <label for="wiki"> Wiki</label><br>
+        <input class="radioInput" type="checkbox" id="forum" name="checkbox" value="forum">
+        <label for="forum"> Forum</label><br>
+        <input class="radioInput" type="checkbox" id="additionalCourses" name="checkbox" value="additionalCourses">
+        <label for="additionalCourses"> Additional Courses</label><br>
+      </div>
+
+      <label class="inputLabel" for="suggestions">Any comments or suggestions?</label><br>
+      <textarea id="suggestions" name="suggestions" rows="4" placeholder="Enter your comment here...">
+</textarea><br>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+  </main>
+</div>
