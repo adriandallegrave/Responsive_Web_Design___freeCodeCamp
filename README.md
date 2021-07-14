@@ -1,4 +1,4 @@
-# Responsive-Web-Design---freeCodeCamp---  <br/>
+# Responsive Web Design | freeCodeCamp.org  <br/>
 
 As part of this certification, Adrian Dalle Grave built the following projects and got all automated test suites to pass:<br/>
 <br/>
