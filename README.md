@@ -3,7 +3,8 @@
 
 ████████████████████████████████████████████████████████████████████████████
 
-As part of this certification, I built the following projects and got all automated test suites to pass. Below there are links to the solutions and the codes are in this  repository and at codepen.io as well:
+As part of this certification, I built the following projects and got all automated test suites to pass. Below there are 
+links to the solutions and the codes are in this  repository and at codepen.io as well:
 
 ████████████████████████████████████████████████████████████████████████████
 
